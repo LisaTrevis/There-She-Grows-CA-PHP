@@ -1,0 +1,614 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #88AD85;
+}
+
+/*All pages nav bar*/
+nav {
+	background-color: #88AD85;
+	height: 100px;
+}
+
+nav h1 {
+	display: inline-block;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	color: #000;
+	font-size: 40px;
+	padding-left: 20px;
+}
+
+nav .col-md-8 {
+	text-align: right;
+}
+
+nav li {
+	display: inline-block;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 40px;
+	margin-top: 25px;
+	padding: 0 10px;
+	border: 1px solid #000;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #A573BA;
+}
+
+/*Home page*/
+header {
+	background-image: url(../images/lavenderandbee.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 100% 100%;
+	color: #fff;
+	height: 750px;
+	position: relative;
+}
+
+.frame {
+	background-color: #88AD85;
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+header h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: "Fira Sans Extra Condensed", sans-serif;	
+	color: #000;
+	line-height: 50px;
+}
+
+header li {
+	font-size: 40px;
+	font-family: "Fira Sans Extra Condensed", sans-serif;	
+	color: #000;
+	line-height: 40px;
+	margin-left: 5px;
+}
+
+#gardentypes {
+	height: 500px;
+}
+
+#gardentypes .row {
+	height: 500px;
+	background-color: #88AD85;
+}
+
+#gardentypes .images {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#gardentypes img {
+	border-radius: 5%;
+}
+
+#gardentypes h2 {
+	text-align: center;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 40px;
+	color: #000;
+}
+
+#gardentypes a:hover,
+#gardentypes h2:hover {
+	text-decoration: none;
+	color: #A573BA;
+}
+
+#services {
+	display: block;
+	height: 450px;
+	background-color: #967BB6;
+}
+
+h3 {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 75px;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 50px;
+}
+
+#services button,
+.modal-header,
+.modal-body {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 40px;
+	color: #000;
+	text-align: center;
+	background-color: #88AD85;
+	border: none;
+}
+
+#services .col-md-4 {
+	text-align: center;
+}
+
+/*All pages footer*/
+#contact {
+	background-color: #88AD85;
+	height: 400px;
+}
+
+.contact {
+	padding-left: 40px;
+	padding-top: 50px;
+}
+
+.contact h5 {
+	display: block;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 40px;
+	margin: 0;
+}
+
+.contact input {
+	width: 100%;
+	height: 25px;
+	margin: 5px 0;
+	font-size: 20px;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.contact textarea {
+	width: 100%;
+	height: 100px;
+	margin: 5px 0;
+	font-size: 20px;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+.contact button {
+	margin: 5px 0;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 30px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+.map {
+	text-align: center;
+	padding-top: 50px;
+}
+
+#contact p {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 40px;
+	padding-top: 20px;
+}
+
+#contact i {
+	background-color: #967BB6;
+	color: #000;
+	margin: 50px 10px 10px 10px;
+	padding-top: 12px;
+	font-size: 50px;
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	text-align: center;
+}
+
+#contact i:hover {
+	color: #88AD85;
+}
+
+#contact .nav {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+#contact .navbar li {
+	display: inline-block;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 35px;
+	margin-top: 25px;
+	margin-left: 15px;
+	padding: 0 15px;
+	letter-spacing: 2px;
+	border: 1px solid #000;
+}
+
+#contact .navbar a {
+	text-decoration: none;
+	color: #000;
+}
+
+#contact .navbar a:hover {
+	text-decoration: none;
+	color: #A573BA;
+}
+
+/*About page*/
+#about {
+	text-align: center;
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #A573BA;
+}
+
+#about img {
+	margin-top: 30px;
+}
+
+#about .text {
+	width: 80%;
+	margin: 0 auto;
+	text-align: left;	
+}
+
+#about h2 {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 60px;
+	margin-bottom: 30px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#about p {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 40px;
+}
+
+/*Projects page*/
+#carousel {
+	margin: 30px 0;
+	height: auto;
+	background-color: #A573BA;
+}
+
+#carousel img {
+	margin: 0 auto;
+}
+
+.carousel-caption {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 60px;
+}
+
+/*FAQ page*/
+
+#accordion {
+	margin: auto 20px;
+	background-color: #A573BA;
+	text-align: center;
+}
+
+#accordion h1 {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 70px;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+
+#accordion .panel-heading {
+	background-color: #A573BA;
+}
+
+#accordion .panel {
+	border: 1px solid #A573BA;
+}
+
+#accordion h4 {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 50px;
+}
+
+#accordion .panel-body {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 30px;
+}
+
+#accordion a:hover {
+	color: #88AD85;
+	text-decoration: none;
+}
+
+/*Contact page*/
+#main-contact {
+	text-align: center;
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #A573BA;
+}
+
+#main-contact h2 {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 50px;
+	margin-bottom: 30px;
+	line-height: 70px;
+}
+
+#blog .blog-post{
+	text-align: center;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	background-color: #A573BA;
+}
+
+#blog .blog-post h2 {
+	font-size: 80px;
+	margin: 50px 0 30px 0;
+	text-decoration: underline;
+}
+
+#blog .blog-post h3 {
+	font-size: 30px;
+	text-decoration: none;
+}
+
+#blog .blog-post p {
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 40px;
+	padding: 0 50px;
+}
+
+#blog .blog-post li {
+	text-align: left;
+	font-size: 40px;
+}
+
+#blog .blog-post a {
+	color: #000;
+}
+
+#blog .blog-post a:hover {
+	color: #88AD85;
+	text-decoration: none;
+}
+
+#blog .blog-post hr {
+	border: 5px solid #000;
+	margin-left: 10px;
+}
+
+#blog .sidebar h3 {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+}
+
+#blog .sidebar a {
+	color: #000;
+}
+
+#blog .sidebar li {
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 40px;
+}
+
+#blog .sidebar a:hover {
+	color: #A573BA;
+	text-decoration: none;
+}
+
+#blog button {
+	margin: 0px 90px;
+	background-color: #A573BA;
+	font-family: "Fira Sans Extra Condensed", sans-serif;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+#blog button:hover {
+	background-color: #000;
+}
+
+@media (max-width: 1359px) {
+	#contact i {
+		margin: 25px 50px 10px 50px;
+	}
+	#blog .sidebar {
+		display: none;
+	}
+}
+
+@media (max-width: 1312px) {
+	#contact .navbar li {
+		margin-left: 15px;
+	}
+}
+
+@media (max-width: 1242px) {
+	#contact i {
+		margin: 25px 25px 10px 25px;
+}
+
+@media (max-width: 991px) {
+	nav {
+		height: auto;
+	}
+	nav .row .col-md-4,
+	nav .row .col-md-8 {
+		display: block;
+		text-align: center;
+	}
+
+	nav .row .col-md-4 h1 {
+		font-size: 50px;
+	}
+
+	nav .row .col-md-8 li {
+		font-size: 50px;
+	}
+	#gardentypes {
+		height: auto;
+	}
+	#gardentypes .row {
+		height: auto;
+	}
+	#gardentypes .row h2,
+	#gardentypes .row img {
+		display: inline-block;
+		padding-top: 20px;
+	}
+	#gardentypes .row .col-md-3 h2 {
+		text-align: left;
+		width: 250px;
+		font-size: 75px;
+	}
+	#gardentypes .row .col-md-3 img {
+		text-align: right;
+		margin-top: -250px;
+	}
+	#services {
+		height: auto;
+	}
+	#contact {
+		height: auto;
+		text-align: center;
+	}
+	#contact .col-md-4 form {
+		margin: auto;
+	}
+	#contact .contact {
+		text-align: center;
+	}
+	#contact form {
+		width: 80%;
+		margin: 0 auto;	
+	}
+	#contact .social {
+		text-align: center;
+	}
+	#contact .social .social-icons {
+		padding-left: 0;
+	}
+	#contact .social i {
+		margin: 0 auto;
+	}
+	#contact .social .navbar {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 726px) {
+	.container-fluid .row h1 {
+		padding-left: 0;
+	}
+	.container-fluid .row .col-md-4 h1,
+	.container-fluid .row .col-md-8 li {
+		font-size: 80px;
+	}
+	.container-fluid .row .col-md-8 li {
+		margin: 10px 25px;
+	}
+	header .frame {
+		width: 90%;
+		height: auto;
+	}
+	header h1 {
+		font-size: 70px;
+		line-height: 75px;
+	}
+	header li {
+		font-size: 60px;
+		line-height: 65px;
+	}
+	header ul {
+		padding-left: 50px;
+	}
+	#gardentypes .images {
+		margin-top: 0;
+		margin: 10px 0;
+	}
+	#services .row button {
+		font-size: 60px;
+	} 
+	#contact h5,
+	#contact form, 
+	#contact button,
+	#contact p {
+		font-size: 60px;
+		line-height: 65px;
+		margin: 0 auto;
+	}
+	#contact .social-icons i {
+		margin: 50px 25px;
+	}
+	#contact .social .nav {
+		font-size: 80px;
+	}
+	#contact .social .navbar li {
+		margin-left: 0;
+		margin: 25px 40px;
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 552px) {
+	#contact .social-icons i {
+		margin: 50px 15px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container-fluid .row .col-md-4 h1 {
+		font-size: 50px
+	}
+	.container-fluid .row .col-md-8 li{
+		font-size: 40px;
+		margin: 10px 20px;
+	}
+	header .frame {
+		height: 70%;
+	}
+	header .frame h1, 
+	header .frame li {
+		font-size: 40px;
+		line-height: 45px;
+	}
+	#gardentypes .col-md-3 img {
+		display: none;
+	}
+	#gardentypes .row .images .col-md-3 h2 {
+		border: 1px solid #000;
+		font-size: 50px;
+	}
+	#services h3 {
+		font-size: 60px;
+	}
+	#services .row .col-md-4 button {
+		font-size: 40px;
+	}
+	#contact .social .social-icons i {
+		margin: 20px 0;
+	}
+	#contact .social .navbar li {
+		margin: 25px 10px;
+	}
+	#contact p {
+		font-size: 50px;
+	}
+	#contact .social .nav {
+		font-size: 50px;
+	}
+	#contact .social .navbar li {
+		font-size: 30px;
+		margin: 10px 20px;
+	}
+}
+
+@media (max-width: 376px) {
+	#about .image {
+		width: 200px;
+		height: 200px;
+	}
+	#carousel .carousel-caption {
+		font-size: 30px;
+	}
+}
